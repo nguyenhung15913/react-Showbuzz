@@ -1,0 +1,88 @@
+.movie-detail-page {
+	display: flex;
+	margin-bottom: 4rem;
+	gap: 2rem;
+	padding-top: 2rem;
+}
+
+.large-picture {
+	z-index: -1;
+}
+
+.large-picture img {
+	width: 500px;
+	height: 100%;
+}
+
+.rent-buy button {
+	border: none;
+	outline: none;
+	border-radius: 0.5rem;
+	width: 120px;
+	font-size: 1rem;
+	color: white;
+	background-color: dodgerblue;
+}
+
+.movie-detail {
+	margin-left: 1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	position: relative;
+}
+
+.information p {
+	font-size: 1rem;
+	max-width: 400px;
+}
+
+.rating {
+	position: absolute;
+	left: 0;
+	width: 50px;
+	font-weight: bold;
+}
+
+.sub-title {
+	display: flex;
+	column-gap: 5px;
+}
+
+.rate {
+	display: flex;
+	column-gap: 2rem;
+	align-items: center;
+	margin-bottom: 1rem;
+}
+
+.rate p {
+	margin: 0;
+}
+
+.tagline i {
+	font-size: 1.5rem;
+}
+
+.play-logo {
+	color: white;
+	display: flex;
+	align-items: center;
+}
+
+.overview h3 {
+	color: white;
+}
+
+.crew {
+	display: flex;
+	max-width: 600px;
+	gap: 3rem;
+	flex-wrap: wrap;
+	color: white;
+}
+
+.movie-detail-img {
+	height: 400px;
+	width: 300px;
+}
